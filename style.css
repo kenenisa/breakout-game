@@ -24,7 +24,7 @@ header .score .current {
 .background {
     background: url('bg.jpg') repeat;
     background-size: cover;
-    filter: blur(10px);
+    filter: blur(15px);
     position: absolute;
     top: 0;
     left: 0;

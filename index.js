@@ -28,7 +28,7 @@ let board = {
     width: BOARD_WIDTH,
     height: 10,
     bottom: 50 - BALL_RADIUS,
-    step: 25
+    step: 30
 }
 let bricks = []
 
