@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="background"></div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <header>
+        <h2>Breakout Lvl <span id="levelNow">1</span></h2>
+        <div class="score">
+            <span class="current" id="scoreNow">5000</span>
+            <span class="highest" id="scoreHighest">4000</span>
+        </div>
+        <h2 id="fps">N/A</h2>
+    </header>
+
+    <div id="con">
+
+    </div>
+
+    <div class="modal" id="modal">
+        <h3 id="modal-title">Game Over</h3>
+        <h2>Lvl <span id="levelFinal"></span>: <span id="scoreFinal"></span></h2>
+        <button id="modal-button">
+            <iconify-icon icon="ion:refresh"></iconify-icon>
+        </button>
+    </div>
+
+    <!-- <div class="ball" id="ball"></div> -->
+
+    <div class="hr" id="hr"></div>
+    <div class="board" id="board"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
