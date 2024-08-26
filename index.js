@@ -51,6 +51,14 @@ function detectArrowKeys(event) {
 
 document.addEventListener('keydown', detectArrowKeys);
 
+function handleTouchMove(event) {
+    if (!gameOver) {
+        board.x = event.touches[0].clientX - board.width / 2
+    }
+}
+document.addEventListener('touchmove', handleTouchMove);
+
+
 let fpsUpdating = true;
 function getFrameRate() {
     const now = performance.now();
